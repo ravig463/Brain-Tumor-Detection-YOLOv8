@@ -1,0 +1,12 @@
+train: ../train/images
+val: ../test/images
+test: ../test/images
+
+nc: 3
+names: ["gliomas", "meningiomas", "metastatic tumors"]
+roboflow:
+  workspace: BrainDetection
+  project: brain-tumor-detection
+  version: 2
+  license: Public Domain
+  url: https://universe.roboflow.com/yousef-ghanem-jzj4y/brain-tumor-detection-fpf1f/dataset/2
